@@ -1,0 +1,3 @@
+/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles/whats_your_favorite_number.dir
+/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles/rebuild_cache.dir

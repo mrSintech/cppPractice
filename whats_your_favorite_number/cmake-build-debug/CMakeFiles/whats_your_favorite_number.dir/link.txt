@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/whats_your_favorite_number.dir/main.cpp.o -o whats_your_favorite_number 
