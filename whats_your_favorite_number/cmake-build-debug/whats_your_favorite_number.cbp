@@ -85,6 +85,9 @@
 		<Unit filename="/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/main.cpp">
 			<Option target="whats_your_favorite_number"/>
 		</Unit>
+		<Unit filename="/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/sizeof_climits_cfloat/main.cpp">
+			<Option target="whats_your_favorite_number"/>
+		</Unit>
 		<Unit filename="/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

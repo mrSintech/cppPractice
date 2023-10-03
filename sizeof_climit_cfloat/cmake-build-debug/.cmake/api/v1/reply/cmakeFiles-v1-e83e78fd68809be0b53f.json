@@ -728,8 +728,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug",
-		"source" : "/mnt/d/GEEK/cpp/practices/whats_your_favorite_number"
+		"build" : "/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug",
+		"source" : "/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat"
 	},
 	"version" : 
 	{

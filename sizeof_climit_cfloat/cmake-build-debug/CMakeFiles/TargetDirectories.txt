@@ -1,0 +1,3 @@
+/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles/sizeof_climit_cfloat.dir
+/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles/rebuild_cache.dir

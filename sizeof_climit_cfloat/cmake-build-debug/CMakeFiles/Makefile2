@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/GEEK/cpp/practices/whats_your_favorite_number
+CMAKE_SOURCE_DIR = /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/whats_your_favorite_number.dir/all
+all: CMakeFiles/sizeof_climit_cfloat.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/whats_your_favorite_number.dir/clean
+clean: CMakeFiles/sizeof_climit_cfloat.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/whats_your_favorite_number.dir
+# Target rules for target CMakeFiles/sizeof_climit_cfloat.dir
 
 # All Build rule for target.
-CMakeFiles/whats_your_favorite_number.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target whats_your_favorite_number"
-.PHONY : CMakeFiles/whats_your_favorite_number.dir/all
+CMakeFiles/sizeof_climit_cfloat.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target sizeof_climit_cfloat"
+.PHONY : CMakeFiles/sizeof_climit_cfloat.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/whats_your_favorite_number.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/whats_your_favorite_number.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/whats_your_favorite_number.dir/rule
+CMakeFiles/sizeof_climit_cfloat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sizeof_climit_cfloat.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sizeof_climit_cfloat.dir/rule
 
 # Convenience name for target.
-whats_your_favorite_number: CMakeFiles/whats_your_favorite_number.dir/rule
-.PHONY : whats_your_favorite_number
+sizeof_climit_cfloat: CMakeFiles/sizeof_climit_cfloat.dir/rule
+.PHONY : sizeof_climit_cfloat
 
 # clean rule for target.
-CMakeFiles/whats_your_favorite_number.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/clean
-.PHONY : CMakeFiles/whats_your_favorite_number.dir/clean
+CMakeFiles/sizeof_climit_cfloat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/clean
+.PHONY : CMakeFiles/sizeof_climit_cfloat.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/whats_your_favorite_number.dir/main.cpp.o"
   "CMakeFiles/whats_your_favorite_number.dir/main.cpp.o.d"
+  "CMakeFiles/whats_your_favorite_number.dir/sizeof_climits_cfloat/main.cpp.o"
+  "CMakeFiles/whats_your_favorite_number.dir/sizeof_climits_cfloat/main.cpp.o.d"
   "whats_your_favorite_number"
   "whats_your_favorite_number.pdb"
 )

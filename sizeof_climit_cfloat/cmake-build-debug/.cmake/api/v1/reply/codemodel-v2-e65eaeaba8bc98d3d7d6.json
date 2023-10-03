@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "whats_your_favorite_number",
+					"name" : "sizeof_climit_cfloat",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "whats_your_favorite_number::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-whats_your_favorite_number-Debug-04fcc8ee65e93190c75d.json",
-					"name" : "whats_your_favorite_number",
+					"id" : "sizeof_climit_cfloat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sizeof_climit_cfloat-Debug-d6beefb9213cdb2829bb.json",
+					"name" : "sizeof_climit_cfloat",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug",
-		"source" : "/mnt/d/GEEK/cpp/practices/whats_your_favorite_number"
+		"build" : "/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug",
+		"source" : "/mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat"
 	},
 	"version" : 
 	{

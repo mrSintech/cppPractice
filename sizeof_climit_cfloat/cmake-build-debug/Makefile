@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/GEEK/cpp/practices/whats_your_favorite_number
+CMAKE_SOURCE_DIR = /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/whats_your_favorite_number/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/GEEK/cpp/practices/sizeof_climit_cfloat/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named whats_your_favorite_number
+# Target rules for targets named sizeof_climit_cfloat
 
 # Build rule for target.
-whats_your_favorite_number: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 whats_your_favorite_number
-.PHONY : whats_your_favorite_number
+sizeof_climit_cfloat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeof_climit_cfloat
+.PHONY : sizeof_climit_cfloat
 
 # fast build rule for target.
-whats_your_favorite_number/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/build
-.PHONY : whats_your_favorite_number/fast
+sizeof_climit_cfloat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/build
+.PHONY : sizeof_climit_cfloat/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,32 +150,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeof_climit_cfloat.dir/build.make CMakeFiles/sizeof_climit_cfloat.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-sizeof_climits_cfloat/main.o: sizeof_climits_cfloat/main.cpp.o
-.PHONY : sizeof_climits_cfloat/main.o
-
-# target to build an object file
-sizeof_climits_cfloat/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/sizeof_climits_cfloat/main.cpp.o
-.PHONY : sizeof_climits_cfloat/main.cpp.o
-
-sizeof_climits_cfloat/main.i: sizeof_climits_cfloat/main.cpp.i
-.PHONY : sizeof_climits_cfloat/main.i
-
-# target to preprocess a source file
-sizeof_climits_cfloat/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/sizeof_climits_cfloat/main.cpp.i
-.PHONY : sizeof_climits_cfloat/main.cpp.i
-
-sizeof_climits_cfloat/main.s: sizeof_climits_cfloat/main.cpp.s
-.PHONY : sizeof_climits_cfloat/main.s
-
-# target to generate assembly for a file
-sizeof_climits_cfloat/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/whats_your_favorite_number.dir/build.make CMakeFiles/whats_your_favorite_number.dir/sizeof_climits_cfloat/main.cpp.s
-.PHONY : sizeof_climits_cfloat/main.cpp.s
 
 # Help Target
 help:
@@ -185,13 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... whats_your_favorite_number"
+	@echo "... sizeof_climit_cfloat"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sizeof_climits_cfloat/main.o"
-	@echo "... sizeof_climits_cfloat/main.i"
-	@echo "... sizeof_climits_cfloat/main.s"
 .PHONY : help
 
 
